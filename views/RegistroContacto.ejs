@@ -1,0 +1,30 @@
+<form method="post" action="guardarContacto">
+	<label for="nombres" class="rem">Nombres:</label>
+<input type="text" id="nombres" name="agenda[nombres]" value="<%= agenda.nombres %>">
+<div>
+	<label for="apellidoPaterno" class="rem">Apellido Paterno:</label>
+	<input type="text" id="apellidoPaterno" name="agenda[apellidoPaterno]" value="<%= agenda.apellidoPaterno %>">
+	</div>
+	<div>
+	<label for="apellidoMaterno" class="rem">Apellido Materno:</label>
+	<input type="text" id="apellidoMaterno" name="agenda[apellidoMaterno]" value="<%= agenda.apellidoMaterno %>">
+	</div>
+<div>
+	<label for="telefonoPersonal" class="rem">Telefono Personal:</label>
+	<input type="text" id="telefonoPersonal" name="agenda[telefonoPersonal]" value="<%= agenda.telefonoPersonal %>">
+</div>
+<div>
+	<label for="telefonoDomicilio" class="rem">Telefono Domicilio:</label>
+	<input type="text" id="telefonoDomicilio" name="agenda[telefonoDomicilio]" value="<%= agenda.telefonoDomicilio %>">
+</div>
+<div>
+	<label for="cumpleanos" class="rem">Cumpleaños</label>
+	<input type="text" id="cumpleanos" name="agenda[cumpleanos]" value="<%= agenda.cumpleanos %>">
+</div>
+<div>
+	<input type="submit" name="envio" value="Registrar Contacto">
+</div>
+</form>
+
+
+
